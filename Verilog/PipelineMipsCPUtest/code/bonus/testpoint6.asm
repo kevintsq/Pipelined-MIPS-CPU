@@ -1,0 +1,232 @@
+li		$1,0
+sw		$1,0($0)
+li		$1,1
+sw		$1,4($0)
+li		$1,2147483647
+sw		$1,8($0)
+li		$1,-1
+sw		$1,12($0)
+li		$1,-2147483648
+sw		$1,16($0)
+li		$1,2333
+sw		$1,20($0)
+li		$1,-2333
+sw		$1,24($0)
+li		$1,23333333
+sw		$1,28($0)
+li		$1,-23333333
+sw		$1,32($0)
+
+#------------------------
+
+addi	$1,$0,23333
+addi	$2,$0,23333
+addi	$3,$0,23333
+addi	$4,$0,23333
+addi	$5,$0,23333
+addi	$6,$0,23333
+addi	$7,$0,23333
+addi	$8,$0,23333
+addi	$9,$0,23333
+addi	$10,$0,23333
+addi	$11,$0,23333
+addi	$12,$0,23333
+addi	$13,$0,23333
+addi	$14,$0,23333
+addi	$15,$0,23333
+addi	$16,$0,23333
+addi	$17,$0,23333
+addi	$18,$0,23333
+addi	$19,$0,23333
+addi	$20,$0,23333
+addi	$21,$0,23333
+addi	$22,$0,23333
+addi	$23,$0,23333
+addi	$24,$0,23333
+addi	$25,$0,23333
+addi	$26,$0,23333
+addi	$27,$0,23333
+addi	$28,$0,23333
+addi	$29,$0,23333
+addi	$30,$0,23333
+addi	$31,$0,23333
+
+#------------------------
+
+addi	$t0,$0,0
+addi	$a0,$0,0
+addi	$s0,$0,9
+LOOP_BEGIN:
+	slt		$t1,$t0,$s0
+	beq		$t1,$0,LOOP_END
+	addi	$31,$31,1
+	addi	$31,$31,1
+	lw		$s1,0($a0)
+	addi	$a0,$a0,4
+	#------------------------
+	andi	$31,$s1,0
+	andi	$31,$s1,1
+	andi	$31,$s1,2333
+	andi	$31,$s1,32767
+	andi	$31,$s1,65535
+	xori	$31,$s1,0
+	xori	$31,$s1,1
+	xori	$31,$s1,2333
+	xori	$31,$s1,32767
+	xori	$31,$s1,65535
+	ori		$31,$s1,0
+	ori		$31,$s1,1
+	ori		$31,$s1,2333
+	ori		$31,$s1,32767
+	ori		$31,$s1,65535
+	sll		$31,$s1,0
+	sll		$31,$s1,1
+	sll		$31,$s1,10
+	sll		$31,$s1,20
+	sll		$31,$s1,31
+	srl		$31,$s1,0
+	srl		$31,$s1,1
+	srl		$31,$s1,10
+	srl		$31,$s1,20
+	srl		$31,$s1,31
+	sra		$31,$s1,0
+	sra		$31,$s1,1
+	sra		$31,$s1,10
+	sra		$31,$s1,20
+	sra		$31,$s1,31
+	addi	$31,$s1,0
+	addi	$31,$s1,1
+	addi	$31,$s1,-1
+	addi	$31,$s1,2333
+	addi	$31,$s1,-2333
+	addi	$31,$s1,32767
+	addi	$31,$s1,-32768
+	addiu	$31,$s1,0
+	addiu	$31,$s1,1
+	addiu	$31,$s1,-1
+	addiu	$31,$s1,2333
+	addiu	$31,$s1,-2333
+	addiu	$31,$s1,32767
+	addiu	$31,$s1,-32768
+	slti	$31,$s1,0
+	slti	$31,$s1,1
+	slti	$31,$s1,-1
+	slti	$31,$s1,2333
+	slti	$31,$s1,-2333
+	slti	$31,$s1,32767
+	slti	$31,$s1,-32768
+	sltiu	$31,$s1,0
+	sltiu	$31,$s1,1
+	sltiu	$31,$s1,-1
+	sltiu	$31,$s1,2333
+	sltiu	$31,$s1,-2333
+	sltiu	$31,$s1,32767
+	sltiu	$31,$s1,-32768
+	lui		$31,0
+	lui		$31,1
+	lui		$31,2333
+	lui		$31,32767
+	lui		$31,65535
+	#------------------------
+	addi	$t0,$t0,1
+	j		LOOP_BEGIN
+	addi	$31,$31,1
+	addi	$31,$31,1
+LOOP_END:
+
+addi	$t0,$0,0
+addi	$a0,$0,0
+addi	$s0,$0,9
+LOOPN_BEGIN:
+	slt		$t1,$t0,$s0
+	beq		$t1,$0,LOOPN_END
+	addi	$31,$31,1
+	addi	$31,$31,1
+	lw		$s2,0($a0)
+	addi	$a0,$a0,4
+	#------------------------
+	addu	$s1,$0,$s2
+	andi	$s1,$s1,0
+	andi	$s1,$s1,1
+	andi	$s1,$s1,2333
+	andi	$s1,$s1,32767
+	andi	$s1,$s1,65535
+	addu	$s1,$0,$s2
+	xori	$s1,$s1,0
+	xori	$s1,$s1,1
+	xori	$s1,$s1,2333
+	xori	$s1,$s1,32767
+	xori	$s1,$s1,65535
+	addu	$s1,$0,$s2
+	ori		$s1,$s1,0
+	ori		$s1,$s1,1
+	ori		$s1,$s1,2333
+	ori		$s1,$s1,32767
+	ori		$s1,$s1,65535
+	addu	$s1,$0,$s2
+	sll		$s1,$s1,0
+	sll		$s1,$s1,1
+	sll		$s1,$s1,10
+	sll		$s1,$s1,20
+	sll		$s1,$s1,31
+	addu	$s1,$0,$s2
+	srl		$s1,$s1,0
+	srl		$s1,$s1,1
+	srl		$s1,$s1,10
+	srl		$s1,$s1,20
+	srl		$s1,$s1,31
+	addu	$s1,$0,$s2
+	sra		$s1,$s1,0
+	sra		$s1,$s1,1
+	sra		$s1,$s1,10
+	sra		$s1,$s1,20
+	sra		$s1,$s1,31
+	addu	$s1,$0,$s2
+	addi	$s1,$s1,0
+	addi	$s1,$s1,1
+	addi	$s1,$s1,-1
+	addi	$s1,$s1,2333
+	addi	$s1,$s1,-2333
+	addi	$s1,$s1,32767
+	addi	$s1,$s1,-32768
+	addu	$s1,$0,$s2
+	addiu	$s1,$s1,0
+	addiu	$s1,$s1,1
+	addiu	$s1,$s1,-1
+	addiu	$s1,$s1,2333
+	addiu	$s1,$s1,-2333
+	addiu	$s1,$s1,32767
+	addiu	$s1,$s1,-32768
+	addu	$s1,$0,$s2
+	slti	$s1,$s1,0
+	slti	$s1,$s1,1
+	slti	$s1,$s1,-1
+	slti	$s1,$s1,2333
+	slti	$s1,$s1,-2333
+	slti	$s1,$s1,32767
+	slti	$s1,$s1,-32768
+	addu	$s1,$0,$s2
+	sltiu	$s1,$s1,0
+	sltiu	$s1,$s1,1
+	sltiu	$s1,$s1,-1
+	sltiu	$s1,$s1,2333
+	sltiu	$s1,$s1,-2333
+	sltiu	$s1,$s1,32767
+	sltiu	$s1,$s1,-32768
+	addu	$s1,$0,$s2
+	lui		$s1,0
+	lui		$s1,1
+	lui		$s1,2333
+	lui		$s1,32767
+	lui		$s1,65535
+	#------------------------
+	addi	$t0,$t0,1
+	j		LOOPN_BEGIN
+	addi	$31,$31,1
+	addi	$31,$31,1
+LOOPN_END:
+
+nop
+nop
+nop
+nop

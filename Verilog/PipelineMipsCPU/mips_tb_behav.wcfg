@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mips_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="221380fs"></ZoomStartTime>
+      <ZoomEndTime time="255751fs"></ZoomEndTime>
+      <Cursor1Time time="237000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="377"></NameColumnWidth>
+      <ValueColumnWidth column_width="173"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/mips_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/t" type="array">
+      <obj_property name="ElementShortName">t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dasm/asm" type="array">
+      <obj_property name="ElementShortName">asm[255:0]</obj_property>
+      <obj_property name="ObjectShortName">asm[255:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/PCnext" type="array">
+      <obj_property name="ElementShortName">PCnext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCnext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/PCplus4F" type="array">
+      <obj_property name="ElementShortName">PCplus4F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCplus4F[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/PCplus4D" type="array">
+      <obj_property name="ElementShortName">PCplus4D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCplus4D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/PCplus4E" type="array">
+      <obj_property name="ElementShortName">PCplus4E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCplus4E[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/PCplus4M" type="array">
+      <obj_property name="ElementShortName">PCplus4M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCplus4M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/PCplus4W" type="array">
+      <obj_property name="ElementShortName">PCplus4W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCplus4W[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group210" type="group">
+      <obj_property name="label">Instruction</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_tb/uut/IMaddr" type="array">
+         <obj_property name="ElementShortName">IMaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IMaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/instrD" type="array">
+         <obj_property name="ElementShortName">instrD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instrD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/instrE" type="array">
+         <obj_property name="ElementShortName">instrE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instrE[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/instrM" type="array">
+         <obj_property name="ElementShortName">instrM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instrM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/instrW" type="array">
+         <obj_property name="ElementShortName">instrW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instrW[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group208" type="group">
+      <obj_property name="label">GRF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mips_tb/uut/grf/read1addr" type="array">
+         <obj_property name="ElementShortName">read1addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read1addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/grf/read2addr" type="array">
+         <obj_property name="ElementShortName">read2addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read2addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/grf/writeAddr" type="array">
+         <obj_property name="ElementShortName">writeAddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">writeAddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/grf/writeData" type="array">
+         <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/grf/read1data" type="array">
+         <obj_property name="ElementShortName">read1data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read1data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/grf/read2data" type="array">
+         <obj_property name="ElementShortName">read2data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read2data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/GRFread2dataE" type="array">
+         <obj_property name="ElementShortName">GRFread2dataE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">GRFread2dataE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/GRFread2dataM" type="array">
+         <obj_property name="ElementShortName">GRFread2dataM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">GRFread2dataM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/grf/register" type="array">
+         <obj_property name="ElementShortName">register[31:1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">register[31:1][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CMPin1" type="array">
+      <obj_property name="ElementShortName">CMPin1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CMPin1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CMPin2" type="array">
+      <obj_property name="ElementShortName">CMPin2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CMPin2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/retAddr" type="array">
+      <obj_property name="ElementShortName">retAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">retAddr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/branchSig" type="logic">
+      <obj_property name="ElementShortName">branchSig</obj_property>
+      <obj_property name="ObjectShortName">branchSig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="group251" type="group">
+      <obj_property name="label">Forward</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mips_tb/uut/retAddrFwdOp" type="logic">
+         <obj_property name="ElementShortName">retAddrFwdOp</obj_property>
+         <obj_property name="ObjectShortName">retAddrFwdOp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/CMPin1fwdOp" type="logic">
+         <obj_property name="ElementShortName">CMPin1fwdOp</obj_property>
+         <obj_property name="ObjectShortName">CMPin1fwdOp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/CMPin2fwdOp" type="logic">
+         <obj_property name="ElementShortName">CMPin2fwdOp</obj_property>
+         <obj_property name="ObjectShortName">CMPin2fwdOp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUin1fwdOp" type="array">
+         <obj_property name="ElementShortName">ALUin1fwdOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUin1fwdOp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUin2fwdOp" type="array">
+         <obj_property name="ElementShortName">ALUin2fwdOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUin2fwdOp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/DMdataInFwdOp" type="logic">
+         <obj_property name="ElementShortName">DMdataInFwdOp</obj_property>
+         <obj_property name="ObjectShortName">DMdataInFwdOp</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group119" type="group">
+      <obj_property name="label">A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_tb/uut/Ause1D" type="array">
+         <obj_property name="ElementShortName">Ause1D[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause1D[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Ause2D" type="array">
+         <obj_property name="ElementShortName">Ause2D[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause2D[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/AnewD" type="array">
+         <obj_property name="ElementShortName">AnewD[4:0]</obj_property>
+         <obj_property name="ObjectShortName">AnewD[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Ause1E" type="array">
+         <obj_property name="ElementShortName">Ause1E[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause1E[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Ause2E" type="array">
+         <obj_property name="ElementShortName">Ause2E[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause2E[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/AnewE" type="array">
+         <obj_property name="ElementShortName">AnewE[4:0]</obj_property>
+         <obj_property name="ObjectShortName">AnewE[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Ause1M" type="array">
+         <obj_property name="ElementShortName">Ause1M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause1M[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Ause2M" type="array">
+         <obj_property name="ElementShortName">Ause2M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause2M[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/AnewM" type="array">
+         <obj_property name="ElementShortName">AnewM[4:0]</obj_property>
+         <obj_property name="ObjectShortName">AnewM[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Ause1W" type="array">
+         <obj_property name="ElementShortName">Ause1W[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause1W[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Ause2W" type="array">
+         <obj_property name="ElementShortName">Ause2W[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Ause2W[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/AnewW" type="array">
+         <obj_property name="ElementShortName">AnewW[4:0]</obj_property>
+         <obj_property name="ObjectShortName">AnewW[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group133" type="group">
+      <obj_property name="label">T</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mips_tb/uut/TnewD" type="array">
+         <obj_property name="ElementShortName">TnewD[2:0]</obj_property>
+         <obj_property name="ObjectShortName">TnewD[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/TnewE" type="array">
+         <obj_property name="ElementShortName">TnewE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">TnewE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/TnewM" type="array">
+         <obj_property name="ElementShortName">TnewM[2:0]</obj_property>
+         <obj_property name="ObjectShortName">TnewM[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/TnewW" type="array">
+         <obj_property name="ElementShortName">TnewW[2:0]</obj_property>
+         <obj_property name="ObjectShortName">TnewW[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse1D" type="array">
+         <obj_property name="ElementShortName">Tuse1D[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse1D[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse2D" type="array">
+         <obj_property name="ElementShortName">Tuse2D[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse2D[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse1E" type="array">
+         <obj_property name="ElementShortName">Tuse1E[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse1E[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse2E" type="array">
+         <obj_property name="ElementShortName">Tuse2E[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse2E[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse1M" type="array">
+         <obj_property name="ElementShortName">Tuse1M[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse1M[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse2M" type="array">
+         <obj_property name="ElementShortName">Tuse2M[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse2M[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse1W" type="array">
+         <obj_property name="ElementShortName">Tuse1W[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse1W[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/Tuse2W" type="array">
+         <obj_property name="ElementShortName">Tuse2W[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Tuse2W[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ext/ext32" type="array">
+      <obj_property name="ElementShortName">ext32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ext32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/EXTresultE" type="array">
+      <obj_property name="ElementShortName">EXTresultE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXTresultE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group211" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_tb/uut/ALUAop" type="logic">
+         <obj_property name="ElementShortName">ALUAop</obj_property>
+         <obj_property name="ObjectShortName">ALUAop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUBop" type="logic">
+         <obj_property name="ElementShortName">ALUBop</obj_property>
+         <obj_property name="ObjectShortName">ALUBop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUopE" type="array">
+         <obj_property name="ElementShortName">ALUopE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUopE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUin1" type="array">
+         <obj_property name="ElementShortName">ALUin1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUin1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUin2" type="array">
+         <obj_property name="ElementShortName">ALUin2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUin2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUresultOriginal" type="array">
+         <obj_property name="ElementShortName">ALUresultOriginal[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUresultOriginal[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUresult" type="array">
+         <obj_property name="ElementShortName">ALUresult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUresult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUresultM" type="array">
+         <obj_property name="ElementShortName">ALUresultM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUresultM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/ALUresultW" type="array">
+         <obj_property name="ElementShortName">ALUresultW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUresultW[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group209" type="group">
+      <obj_property name="label">DM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_tb/uut/DMaddr" type="array">
+         <obj_property name="ElementShortName">DMaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DMaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/DMdataIn" type="array">
+         <obj_property name="ElementShortName">DMdataIn[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DMdataIn[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/DMstoreOp" type="array">
+         <obj_property name="ElementShortName">DMstoreOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">DMstoreOp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/DMloadOp" type="array">
+         <obj_property name="ElementShortName">DMloadOp[2:0]</obj_property>
+         <obj_property name="ObjectShortName">DMloadOp[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/DMdataOut" type="array">
+         <obj_property name="ElementShortName">DMdataOut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DMdataOut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/DMreadDataW" type="array">
+         <obj_property name="ElementShortName">DMreadDataW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DMreadDataW[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group169" type="group">
+      <obj_property name="label">MDU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_tb/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/MDUwrE" type="logic">
+         <obj_property name="ElementShortName">MDUwrE</obj_property>
+         <obj_property name="ObjectShortName">MDUwrE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/MDUstartE" type="logic">
+         <obj_property name="ElementShortName">MDUstartE</obj_property>
+         <obj_property name="ObjectShortName">MDUstartE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/MDUbusy" type="logic">
+         <obj_property name="ElementShortName">MDUbusy</obj_property>
+         <obj_property name="ObjectShortName">MDUbusy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/multDiv/cnt" type="array">
+         <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/multDiv/wasMult" type="array">
+         <obj_property name="ElementShortName">wasMult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wasMult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/multDiv/wasDiv" type="array">
+         <obj_property name="ElementShortName">wasDiv[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wasDiv[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/MDUopD" type="array">
+         <obj_property name="ElementShortName">MDUopD[2:0]</obj_property>
+         <obj_property name="ObjectShortName">MDUopD[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/MDUopE" type="array">
+         <obj_property name="ElementShortName">MDUopE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">MDUopE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/multDiv/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/multDiv/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/multDiv/HItmp" type="array">
+         <obj_property name="ElementShortName">HItmp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HItmp[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/multDiv/LOtmp" type="array">
+         <obj_property name="ElementShortName">LOtmp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">LOtmp[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/HI" type="array">
+         <obj_property name="ElementShortName">HI[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HI[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tb/uut/LO" type="array">
+         <obj_property name="ElementShortName">LO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">LO[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

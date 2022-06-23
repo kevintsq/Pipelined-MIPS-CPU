@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# xsim v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Tue Dec 29 00:56:59 2020
+# Process ID: 10372
+# Current directory: C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/SingleCycleMipsCPUtest
+# Command line: xsim.exe -log query/query_6.txt -mode tcl -source {xsim.dir/mips_tb/xsim_script.tcl}
+# Log file: C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/SingleCycleMipsCPUtest/query/query_6.txt
+# Journal file: C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/SingleCycleMipsCPUtest\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/mips_tb/xsim_script.tcl
+# xsim {mips_tb} -autoloadwcfg -tclbatch {cmd.tcl} -key {Behavioral:sim_1:Functional:mips_tb}
+Vivado Simulator 2020.1.1
+Time resolution is 1 ps
+source cmd.tcl
+## run 1 us;
+@00003000: $13 <= 000027a0
+@00003004: $26 <= 00002314
+@00003008: $ 3 <= 00002898
+@0000300c: $26 <= 00003fb4
+@00003010: $ 4 <= 00002b38
+@00003014: *00000018 <= 00000000
+@00003018: $10 <= 00000000
+@0000301c: *00000010 <= 00000000
+@00003020: $22 <= 00000000
+@00003024: *00000010 <= 00000000
+@00003028: $22 <= 00000000
+@0000302c: *00000010 <= 000027a0
+@00003030: $13 <= 000027a0
+@00003034: *00000018 <= 00000000
+@00003038: $16 <= 00000000
+@0000303c: $22 <= 00000000
+@00003040: $19 <= 00000000
+@00003044: $14 <= 00000000
+@00003048: $26 <= 00000000
+@0000304c: $21 <= 00000000
+@00003050: $ 1 <= 00000000
+@00003054: $20 <= 00000000
+@00003058: $21 <= 00000000
+@0000305c: $14 <= 00000000
+@00003060: $ 8 <= 00002b38
+@00003064: $14 <= 55ae0000
+@00003068: $16 <= 0ebf0000
+@0000306c: $ 9 <= 25c80000
+@00003070: $22 <= 46760000
+@00003074: $21 <= 5d800000
+@00003078: $ 0 <= 00000000
+@0000307c: $ 0 <= 00000000
+@00003080: $X <= xxxxxxxx
+@00003084: $X <= xxxxxxxx
+@00003088: $X <= xxxxxxxx
+@0000308c: $X <= xxxxxxxx
+@00003090: $X <= xxxxxxxx
+@00003094: $X <= xxxxxxxx
+@00003098: $X <= xxxxxxxx
+@0000309c: $X <= xxxxxxxx
+@000030a0: $X <= xxxxxxxx
+@000030a4: $X <= xxxxxxxx
+@000030a8: $X <= xxxxxxxx
+@000030ac: $X <= xxxxxxxx
+@000030b0: $X <= xxxxxxxx
+@000030b4: $X <= xxxxxxxx
+@000030b8: $X <= xxxxxxxx
+@000030bc: $X <= xxxxxxxx
+@000030c0: $X <= xxxxxxxx
+@000030c4: $X <= xxxxxxxx
+@000030c8: $X <= xxxxxxxx
+@000030cc: $X <= xxxxxxxx
+@000030d0: $X <= xxxxxxxx
+@000030d4: $X <= xxxxxxxx
+@000030d8: $X <= xxxxxxxx
+@000030dc: $X <= xxxxxxxx
+@000030e0: $X <= xxxxxxxx
+@000030e4: $X <= xxxxxxxx
+@000030e8: $X <= xxxxxxxx
+@000030ec: $X <= xxxxxxxx
+@000030f0: $X <= xxxxxxxx
+@000030f4: $X <= xxxxxxxx
+@000030f8: $X <= xxxxxxxx
+@000030fc: $X <= xxxxxxxx
+@00003100: $X <= xxxxxxxx
+@00003104: $X <= xxxxxxxx
+@00003108: $X <= xxxxxxxx
+@0000310c: $X <= xxxxxxxx
+@00003110: $X <= xxxxxxxx
+@00003114: $X <= xxxxxxxx
+@00003118: $X <= xxxxxxxx
+@0000311c: $X <= xxxxxxxx
+@00003120: $X <= xxxxxxxx
+@00003124: $X <= xxxxxxxx
+@00003128: $X <= xxxxxxxx
+@0000312c: $X <= xxxxxxxx
+@00003130: $X <= xxxxxxxx
+@00003134: $X <= xxxxxxxx
+@00003138: $X <= xxxxxxxx
+@0000313c: $X <= xxxxxxxx
+@00003140: $X <= xxxxxxxx
+@00003144: $X <= xxxxxxxx
+@00003148: $X <= xxxxxxxx
+@0000314c: $X <= xxxxxxxx
+@00003150: $X <= xxxxxxxx
+@00003154: $X <= xxxxxxxx
+@00003158: $X <= xxxxxxxx
+@0000315c: $X <= xxxxxxxx
+@00003160: $X <= xxxxxxxx
+@00003164: $X <= xxxxxxxx
+@00003168: $X <= xxxxxxxx
+@0000316c: $X <= xxxxxxxx
+@00003170: $X <= xxxxxxxx
+@00003174: $X <= xxxxxxxx
+@00003178: $X <= xxxxxxxx
+@0000317c: $X <= xxxxxxxx
+@00003180: $X <= xxxxxxxx
+@00003184: $X <= xxxxxxxx
+@00003188: $X <= xxxxxxxx
+## exit
+INFO: [Common 17-206] Exiting xsim at Tue Dec 29 00:57:06 2020...

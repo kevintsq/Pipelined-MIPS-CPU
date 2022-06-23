@@ -1,0 +1,1 @@
+-debug "typical" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "mips_tb" "xil_defaultlib.mips_tb" "xil_defaultlib.glbl" --nolog 

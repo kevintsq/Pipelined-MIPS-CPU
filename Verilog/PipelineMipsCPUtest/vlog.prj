@@ -1,0 +1,22 @@
+verilog xil_defaultlib --include "C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/ALU.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/CMP.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/Controller.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/DASM.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/DM.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/DecodeExec.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/EXT.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/ExecMem.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/FetchDecode.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/GRF.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/IM.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/MemWB.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/MultDiv.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/NPC.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/PC.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sources_1/new/mips.v" \
+"C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/PipelineMipsCPU/PipelineMipsCPU.srcs/sim_1/new/mips_tb.v" \
+
+verilog xil_defaultlib "C:/Users/tanta/Documents/Personal/Studies/Undergraduate/ComputerOrganization/Lab/Verilog/xsim/glbl.v"
+
+nosort

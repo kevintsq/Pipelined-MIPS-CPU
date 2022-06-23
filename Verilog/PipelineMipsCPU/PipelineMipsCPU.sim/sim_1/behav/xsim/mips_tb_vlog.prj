@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../PipelineMipsCPU.srcs/sources_1/new" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/ALU.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/CMP.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/Controller.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/DASM.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/DM.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/DecodeExec.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/EXT.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/ExecMem.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/FetchDecode.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/GRF.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/IM.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/MemWB.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/MultDiv.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/NPC.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/PC.v" \
+"../../../../PipelineMipsCPU.srcs/sources_1/new/mips.v" \
+"../../../../PipelineMipsCPU.srcs/sim_1/new/mips_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
